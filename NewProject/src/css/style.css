@@ -103,7 +103,7 @@ nav
     background-color:#344051;
     
 }
-@keyframes main{
+    @keyframes main{
     
  animation-duration: 1s;
         from{opacity:0;}
