@@ -1,0 +1,172 @@
+nav
+{
+   width: 100%;
+    height: 60px;
+    background:#344051;
+    border: solid #000;
+    color:aliceblue;
+}
+.logo{
+    
+    font-size:24px;
+    line-height: 60px;
+    padding-left:20%;
+    float:left;
+    padding-right:28%;
+}
+.menu{
+    
+    font-size:16px;
+}
+.menu li a{
+    float:left;
+     padding-right: 2%;
+    line-height: 30px;
+    color:white;
+     transform:scale(1)
+}
+.main{
+   
+    width:100%;
+    height: 800px;
+    background: url(../img/cat.png) no-repeat
+        75% 70%/auto 80% ,
+        url(../img/background.jfif) center/cover no-repeat; 
+}
+.textmain{
+    padding-right:30%;
+    padding-top: 330px;
+    color:#2c384a;
+    text-align: center;
+    -webkit-animation: main 2s;
+    -o-animation: main 2s;
+    animation: main 2s;
+   
+    
+}
+.textmain h4{
+    color:#79818d;
+    padding-top: 32px;
+    padding-bottom: 30px;
+}
+.textmain h1{
+    font-weight:bold;
+    font-size:32px;
+}
+.textmain a{
+    height: 26px;
+    text-align: center; 
+    border: 2px solid #79818d;
+    margin: 14px;
+    color: #344051;
+    background-color:white;
+    border-radius: 5px;
+    background:none;
+    font-size: 13px;
+    padding: 7px;
+}
+.aboutme{
+    border:1px solid #fff;
+    width: 100%;
+    padding-top: 150px;
+    height: 700px;
+    
+}
+.aboutme h2{
+    font-weight:bold;
+    padding-left: 47%;
+    font-size: 20px;
+    color:#263244;
+    
+    
+    
+}
+.aboutme span{
+    background: url(../img/cat2.png)no-repeat center 0px;
+    float:left;
+    padding:240px 25% 0px 25%;
+    text-align: center;
+    
+  
+}
+
+.menu li a:visited{
+    color: darkgrey;
+}
+.menu li a:hover{
+    color:cadetblue; 
+    transform:scale(1.3)
+}
+.textmain a:hover{
+   
+    color:white;
+    background-color:#344051;
+    
+}
+@keyframes main{
+    
+ animation-duration: 1s;
+        from{opacity:0;}
+        to{opacity: 1;}
+        10%{color:#a872f2;}
+        40%{color:#7230cc;}
+        90%{color:#4c0ea3;}
+    
+}
+
+.aboutme input:hover 
+{
+    color:white;
+    background-color:#344051;
+    animation-duration: 2s;
+    transform:scale(1.1);
+}
+.skills{
+    
+    height: 700px;
+    width: 100%;
+    background-color:#F4F4F4;
+    
+   
+
+}
+ .skills h2{
+     
+    font-weight:bold;
+    font-size: 20px;
+    padding-left: 49%;
+    color:#263244;
+    padding-top: 200px;
+     
+ }
+.skills span{
+    float: left;
+    padding:100px 25% 300px 25%;
+    text-align: center;  
+
+}
+.contacts{
+    padding-left: 10%;
+    padding-bottom:5%;
+    height: 23%;
+    width: 100%;
+    background-color:#344051;
+    
+}
+.contacts a{
+    color:white;
+    font-size: 20px;
+}
+.contacts a:hover{
+    
+    color:cadetblue;
+    animation-duration: 2s;
+    font-size: 21px;
+    
+}
+@media(max-width:960px){
+    .logo{
+        display: none;
+    }
+}
+
